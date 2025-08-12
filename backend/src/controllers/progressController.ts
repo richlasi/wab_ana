@@ -13,4 +13,4 @@ export async function trackProgress(req: Request, res: Response) {
   } catch (error) {
     return res.status(500).json({ error: "Could not track progress" });
   }
-}  
+}
